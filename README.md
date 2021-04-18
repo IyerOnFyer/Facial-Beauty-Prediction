@@ -17,34 +17,6 @@ The `-featuredim` argument specifies the number of components chosen by PCA whic
 
 <!--- After PCA, the `-model` argument is used to indicate the traditional machine learning models including Support Vector Machines (`svm`), Random Forests (`rf`), and Gaussian Process Regression (`gpr`). Checkout the source to change hyperparameters and other options. ---!>
 
-Applying Pearson Correlation for result analysis with learner's prediction. For example, figure below shows PC for evaluation of Linear Regression: 
-
-
-
-## What's included
-
-```
-face-rating/
-├── data/
-│   ├── ratings.txt
-│   ├── landmarks.txt
-│   ├── features_ALL.txt
-│   ├── features_ALL.txt
-│   ├── features_ALL.txt
-│   ├── features_ALL.txt
-│   ├── features_ALL.txt
-│   ├── features_ALL.txt
-│   ├── features_ALL.txt
-│   ├── features_ALL.txt
-│   ├── features_ALL.txt
-	
-├── source/
-|   ├── machine_learning/    
-│       ├── generateFeatures.py
-│       ├── trainModel.py
-│       ├── cross_validation.py
-```
-
 ### Requirements
 - Python 2.7
 - numpy 
