@@ -17,14 +17,14 @@ The `-featuredim` argument specifies the number of components chosen by PCA whic
 
 <!--- After PCA, the `-model` argument is used to indicate the traditional machine learning models including Support Vector Machines (`svm`), Random Forests (`rf`), and Gaussian Process Regression (`gpr`). Checkout the source to change hyperparameters and other options. ---!>
 
-## Requirements
+<!--- # Requirements
 - Python 2.7
 - numpy 
 - pandas
 - scikit-learn
 
-### Dataset
+<!--- # Dataset
 The [SCUT-FBP](http://www.hcii-lab.net/data/SCUT-FBP/EN/introduce.html) dataset has been used. Please cite their research if you happen to use this dataset. The facial landmarks computer on this particular dataset are available in the `data/` directory. 
 
-### License
+<!--- # License
 Creative Commons V1.0
