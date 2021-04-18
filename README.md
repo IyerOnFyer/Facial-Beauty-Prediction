@@ -17,7 +17,7 @@ The `-featuredim` argument specifies the number of components chosen by PCA whic
 
 <!--- After PCA, the `-model` argument is used to indicate the traditional machine learning models including Support Vector Machines (`svm`), Random Forests (`rf`), and Gaussian Process Regression (`gpr`). Checkout the source to change hyperparameters and other options. ---!>
 
-### Requirements
+## Requirements
 - Python 2.7
 - numpy 
 - pandas
